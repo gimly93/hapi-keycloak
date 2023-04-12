@@ -1,0 +1,32 @@
+{
+   "name": "test-altabel",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "ts-node src/main.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@hapi/hapi": "^21.3.1",
+      "axios": "^1.3.5",
+      "boom": "^7.3.0",
+      "mysql2": "^3.2.0",
+      "prettier": "^2.8.7",
+      "qs": "^6.11.1",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.14",
+      "zod": "^3.21.4"
+   },
+   "devDependencies": {
+      "@types/node": "^16.11.10",
+      "ts-node": "^10.7.0",
+      "typescript": "4.5.2",
+      "@types/axios": "^0.14.0",
+      "@types/boom": "^7.3.2",
+      "@types/hapi": "^18.0.8",
+      "@types/qs": "^6.9.7"
+   }
+}
